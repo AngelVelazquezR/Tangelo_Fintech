@@ -1,0 +1,9 @@
+{
+    "logging": {
+		"DEFAULT_LOG_LEVEL": 20,
+		"DEFAULT_LOG_FORMATTER":"Tangelo Fintech [%(levelname)s] %(message)s"
+	},
+	"DB_FILE":"countryDB.db",
+    "JSON_FILE":"countries.json",
+    "REST_URL": "https://restcountries.com/v2/all?fields=name,region,languages"
+}
